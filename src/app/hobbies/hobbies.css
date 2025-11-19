@@ -1,0 +1,29 @@
+.hobbies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.8rem;
+  margin-top: 1rem;
+  justify-items: center;
+  margin-bottom: 5rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.hobby-item {
+  background-color: #ffffff;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hobby-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.08);
+}
+
+.hobby-item p {
+  margin: 0;
+  font-size: 1rem;
+}

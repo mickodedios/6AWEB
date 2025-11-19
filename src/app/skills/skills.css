@@ -1,0 +1,93 @@
+/* Profile text section */
+.profile-text {
+max-width: 800px;
+margin: 0 auto 2rem auto;
+text-align: center;
+font-size: 1rem;
+color: #1c1c1e;
+}
+
+/* Key Skills grid */
+.skills-grid {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 2rem;
+margin-bottom: 2rem;
+}
+
+.skills-column {
+flex: 1 1 250px;
+background-color: #ffffff;
+padding: 1.5rem 2rem;
+border-radius: 12px;
+box-shadow: 0 8px 16px rgba(0,0,0,0.05);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skills-column:hover {
+transform: translateY(-5px);
+box-shadow: 0 12px 20px rgba(0,0,0,0.08);
+}
+
+.skills-list {
+list-style: none;
+padding-left: 0;
+}
+
+.skills-list li {
+margin-bottom: 0.7rem;
+position: relative;
+padding-left: 1.2rem;
+}
+
+.skills-list li::before {
+content: "•";
+position: absolute;
+left: 0;
+color: #0071e3;
+font-weight: bold;
+}
+
+/* =========================
+Technical Proficiencies
+========================= */
+/* Technical Proficiencies wrapper */
+.tech-categories {
+display: flex;              /* horizontal layout */
+flex-wrap: wrap;            /* wrap if screen is small */
+justify-content: center;    /* center bubbles horizontally */
+gap: 2rem;                  /* space between bubbles */
+margin-top: 2rem;
+margin-bottom: 2rem;
+}
+
+/* Each bubble */
+.tech-category {
+flex: 0 0 250px;            /* fixed width for horizontal alignment */
+text-align: center;
+background-color: #ffffff;
+padding: 1.5rem 2rem;
+border-radius: 12px;
+box-shadow: 0 8px 16px rgba(0,0,0,0.05);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tech-category:hover {
+transform: translateY(-5px);
+box-shadow: 0 12px 20px rgba(0,0,0,0.08);
+}
+
+.tech-category h3 {
+font-weight: 600;
+font-size: 1.2rem;
+margin-bottom: 0.8rem;
+}
+
+.tech-category p {
+color: #636366;
+line-height: 1.6;
+font-size: 1rem;
+margin: 0;
+}
+
